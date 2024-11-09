@@ -1,0 +1,33 @@
+.movies-container {
+  width: 100%;
+  margin-left: 7rem;
+  overflow-y: scroll;
+  margin-bottom: 1rem;
+}
+.movies {
+  width: 80%;
+  height: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.movies-genre {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  letter-spacing: 0.02em;
+  color: #878787;
+}
+
+.movie-img {
+  border-radius: 0.6rem;
+}
+.movie-img:hover {
+  cursor: pointer;
+  border: 1px solid #878787;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}

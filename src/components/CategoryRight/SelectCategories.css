@@ -1,0 +1,50 @@
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  background-color: black;
+}
+.category-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+.category-box {
+  padding:0.5rem 1rem;
+  border-radius: 1rem;
+}
+.category-name {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.next-btn{
+    background-color: #148a08;
+    border-radius: 2rem;
+    padding: 0.8rem 2rem;
+    color: #fff;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    margin-top:1rem;
+    transition:0.2s all ease-in-out ;
+    position: relative;
+    left: 25%;
+}
+.next-btn:hover{
+    background-color: #085c00;
+    transform: scale(1.1);
+}
+.select-err{
+  position: relative;
+  color: red !important;
+  top: 1rem;
+
+}

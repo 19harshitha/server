@@ -1,0 +1,55 @@
+.header {
+  width: 45%;
+  height: 100%;
+  background-color: blueviolet;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: url("../../assets/background.png") no-repeat center center;
+  background-size: cover;
+}
+
+.login-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 65%;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.login-text {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.login-button {
+  background-color: #72db73;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  padding: 0.6rem 2.2rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.login-button:hover {
+  background-color: #5cbf5c;
+}
+.login-button:active {
+  background-color: #5bc05b;
+  transform: scale(0.98);
+}
+
+.title-div {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+.title-text {
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 3.4rem;
+  letter-spacing: 0.04em;
+}

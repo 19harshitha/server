@@ -1,0 +1,63 @@
+.profile{
+    background-color: #5746EA;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+    font-family: 'Roboto';
+    letter-spacing: 0.05em;
+    display: inline-flex;
+    line-height: 0.3rem;
+    width: 90%;
+
+}
+
+.profile__img{
+
+}
+.profile__info{
+    margin: 0 0.8rem;
+}
+.user{
+
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+}
+.username{
+font-size: 1.3rem;
+font-weight: 500;
+}
+
+.show-categories {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+  
+  .show-category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #9F94FF;
+    padding: 0.6rem;
+    border-radius: 2rem;
+    width: 6rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+  }
+  .show-category-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .show-category-close-icon {
+    cursor: pointer;
+    margin: 0;
+    font-size: 0.8rem;
+    color: #0000006B;
+    margin-right: 1rem;
+  }
+  

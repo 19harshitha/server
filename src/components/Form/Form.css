@@ -1,0 +1,119 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #1E1E1E; */
+  background-color: black;
+
+  width: 55%;
+  padding: 1rem;
+}
+
+.form-title-div {
+  text-align: center;
+}
+
+.form-title-subtext {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 0.5rem;
+}
+.signin-options-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.line {
+  width: 1.3px;
+  height: 15px;
+  margin: 0 0.8rem;
+  background-color: #72db73;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.form-input {
+  background: #292929;
+  width: 55%;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.8rem;
+  color: #ffff;
+}
+.form-input:focus {
+  outline: none;
+  border: 1px solid #72db73;
+}
+.form_error {
+  color: #c93939;
+  width: 61%;
+  font-size: 0.8rem;
+  position: relative;
+  bottom: 8px;
+}
+.error {
+  border: 1px solid #c93939 !important;
+}
+
+.checkbox-div {
+  width: 60%;
+}
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.checkbox-text {
+  font-family: "DM Sans";
+  color: #7c7c7c;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+.form-button {
+  background-color: #72db73;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  width: 60%;
+  padding: 0.6rem 2rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+.form-button:hover {
+  background-color: #5bc05b;
+}
+.form-button:active {
+  background-color: #5bc05b;
+  transform: scale(0.98);
+}
+.form-terms-div {
+  width: 60%;
+  letter-spacing: 0.02em;
+  font-size: 0.7rem;
+  color: #7c7c7c;
+}
+.span {
+  color: #72db73;
+}

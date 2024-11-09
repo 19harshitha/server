@@ -1,0 +1,11 @@
+.browse-nav{
+    width: 96%;
+    height: 10%;
+    display: inline-flex;
+  
+    align-items: center;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    margin: 0 2rem;
+    margin-top: 0.9rem;
+}
