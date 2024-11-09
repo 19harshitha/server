@@ -29,7 +29,8 @@ const News = () => {
   return (
     <div className="news-container">
       {loading ? (
-        <h1 className="loading">Loading...</h1>
+        <h1 className="loading">Loading <br/>
+                              News api ...</h1>
       ) : (
         <>
           <div className="news-header">
